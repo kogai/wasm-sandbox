@@ -1,0 +1,15 @@
+{
+  "name": "wasm-sandbox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "wa": "wa compile -o program.wasm program.c"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "webassembly": "^0.11.0"
+  }
+}
