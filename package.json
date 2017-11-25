@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "wa": "wa compile -o program.wasm program.c"
+    "build": "wa compile -o program.wasm program.c"
   },
   "keywords": [],
   "author": "",
