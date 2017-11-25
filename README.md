@@ -9,3 +9,6 @@ yarn wa disassemble -o program.wast program.wasm
 
 MachineCode? -> S-exp
 yarn wa disassemble -o program.wast program.native
+
+rustup target add wasm32-unknown-emscripten
+cargo build --target wasm32-unknown-emscripten
