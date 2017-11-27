@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "wa compile -o program.wasm program.c"
+    "build": "wa compile -o program.wasm program.c",
+    "start": "node run.js"
   },
   "keywords": [],
   "author": "",
