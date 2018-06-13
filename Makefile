@@ -7,3 +7,6 @@ install:
 	rustup target add wasm32-unknown-unknown --toolchain nightly  
 	cargo install wasm-gc
 
+de:
+	npx wa disassemble -o program.rust.wast program.rust.wasm
+
