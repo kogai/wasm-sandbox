@@ -3,4 +3,7 @@ name = "wasm-sandbox"
 version = "0.1.0"
 authors = ["shinchi kogai <kogai0121@gmail.com>"]
 
+[lib]
+crate-type=["cdylib"]
+
 [dependencies]
